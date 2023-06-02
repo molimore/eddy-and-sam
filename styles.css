@@ -1,0 +1,22 @@
+body {
+    background-color: blanchedalmond;
+    font-family: sans-serif;
+}
+h1 {
+    color: aqua;
+    background-color: black;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+div {
+    color: white;
+    background-color: black;
+}
+
+p {
+    color: red;
+}
