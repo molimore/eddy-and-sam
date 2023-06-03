@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #a5eba5;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+h1 {
+    color: #4fa74f;
+    background-color: black;
+    font-size: 36px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.firstparagraph {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.list {
+    font-size: 14px;
+    color: rgb(49, 49, 49);
+}
