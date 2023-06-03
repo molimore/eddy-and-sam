@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(235, 235, 235);
     font-family: sans-serif;
 }
 
@@ -20,7 +20,7 @@ body {
     flex-direction: row;
     align-items: center;
     box-sizing: border-box;
-    border-bottom: 2px solid #83eb83;
+    border-bottom: 2px solid #ec8a2f;
 }
 
 .header a:link {
@@ -43,9 +43,12 @@ img {
 }
 
 div {
-    color: white;
-    background-color: black;
-    margin: 10px 50px;
+    color: black;
+    margin: 10px auto;
+    border-bottom: 2px solid #ec8a2f;
+    padding: 5px;
+    width: 500px;
+    
 }
 
 .header p {
