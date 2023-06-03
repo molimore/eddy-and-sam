@@ -1,10 +1,22 @@
 body {
-    background-color: blanchedalmond;
+    background-color: rgb(168, 168, 168);
     font-family: sans-serif;
 }
-h1 {
-    color: aqua;
+.header {
+    color: white;
     background-color: black;
+    padding: 1rem;
+    padding-left: 0;
+    margin-left: 0;
+    width: 700px;
+}
+
+a {
+    display: inline-block;
+}
+
+.big {
+    font-size: 36px;
 }
 
 img {
@@ -18,5 +30,5 @@ div {
 }
 
 p {
-    color: red;
+    color: rgb(255, 255, 255);
 }
