@@ -22,6 +22,13 @@ h1 {
 }
 
 .list {
-    font-size: 14px;
     color: rgb(49, 49, 49);
+}
+
+a {
+    color: #4fa74f;
+}
+
+a, .list {
+    font-size: 14px;
 }
