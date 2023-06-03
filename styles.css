@@ -1,20 +1,37 @@
 body {
-    background-color: rgb(168, 168, 168);
+    background-color: rgb(68, 68, 68);
     font-family: sans-serif;
 }
+
+/*beim header schauen wieso er nicht richtig nach richts geht*/
+
 .header {
     color: white;
     background-color: black;
     padding: 1rem;
     padding-left: 0;
-    margin-left: 0;
-    width: 700px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
+    padding: 20px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 2px solid #83eb83;
 }
 
-a {
-    display: inline-block;
+.header a:link {
+    color: #ffffff;
+    text-decoration: none;
 }
 
+.header a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
 .big {
     font-size: 36px;
 }
@@ -22,13 +39,16 @@ a {
 img {
     height: auto;
     width: 300px;
+    margin: 10px 50px;
 }
 
 div {
     color: white;
     background-color: black;
+    margin: 10px 50px;
 }
 
-p {
+.header p {
     color: rgb(255, 255, 255);
+    margin: 10px;
 }
