@@ -4,7 +4,7 @@ body {
 }
 
 /*beim header schauen wieso er nicht richtig nach richts geht*/
-
+/* header elements*/
 .header {
     color: white;
     background-color: black;
@@ -32,6 +32,14 @@ body {
     color: #ffffff;
     text-decoration: none;
 }
+
+.header p {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+/*other elements*/
+
 .big {
     font-size: 36px;
 }
@@ -55,8 +63,6 @@ div {
     border: 0;
 }
 
-.header p {
-    color: rgb(255, 255, 255);
-    margin: 10px;
+.intro {
+    font-size: 18px;
 }
-
