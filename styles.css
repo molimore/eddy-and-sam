@@ -1,6 +1,6 @@
 body {
     background-color: rgb(235, 235, 235);
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 /*navigation elements*/
@@ -19,6 +19,7 @@ body {
     align-items: center;
     box-sizing: border-box;
     border-bottom: 2px solid #ec8a2f;
+    font-family: serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navigation div {
@@ -43,8 +44,14 @@ body {
 
 /*other elements*/
 
-.big {
+
+
+.navigation .big {
     font-size: 36px;
+    border-bottom: 3px solid #ec8a2f;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
 }
 
 img {
