@@ -17,14 +17,19 @@ body {
     height: 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     box-sizing: border-box;
     border-bottom: 2px solid #ec8a2f;
     font-family: serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.navigation a {
+    margin: 0;
+    padding: 0;
+}
+
 .navigation div {
     margin: 10px;
-    flex: 1;
 }
 
 .navigation a:link {
